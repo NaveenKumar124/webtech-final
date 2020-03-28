@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Login / Register - Travel</title>
+
+	<link rel="stylesheet" href="assets/plugins/bootstrap-4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<nav class="navbar-top w-100">
+		<div class="container">
+			<ul class="text-right list-inline py-1 m-0">
+				<li class="list-inline-item">
+					<a href="login-register.html">Login / Register</a>
+				</li>
+				<li class="list-inline-item">|</li>
+				<li class="list-inline-item">
+					<a href="login-register.html">My List</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<nav class="navbar navbar-expand-md py-3">
+	  	<div class="container">
+		  	<a class="navbar-brand" href="index.html"><img src="assets/images/logo-white.png" height="70" width="300"></a>
+
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		    	<span class="navbar-toggler-icon"></span>
+		  	</button>
+		</div>
+	</nav>
+
+	<main class="main login-main py-5">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-5">
+					<div class="tabs-outer">
+						<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+						  	<li class="nav-item">
+						    	<a class="nav-link" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="true">Login</a>
+						  	</li>
+						  	<li class="nav-item">
+						    	<a class="nav-link" id="profile-tab" data-toggle="tab" href="#register" role="tab" aria-controls="profile" aria-selected="false">Register</a>
+						  	</li>
+						</ul>
+
+						<div class="tab-content p-3" id="myTabContent">
+						  	<div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login">
+						  		<form>
+								  	<div class="form-row">
+								    	<div class="col-12 my-3">
+								      		<input type="text" class="form-control" placeholder="Username or Email">
+								    	</div>
+
+								    	<div class="col-12 my-3">
+								      		<input type="password" class="form-control" placeholder="Password">
+								    	</div>
+
+								    	<div class="col-3 my-3">
+								    		<button class="btn btn-default">Log In</button>
+								    	</div>
+
+								    	<div class="col-9 my-4 text-right">
+								    		<a href="#">Forgot Password ?</a>
+								    	</div>
+
+								  	</div>
+								</form>
+						  	</div>
+
+						  	<div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register">
+						  		<form>
+								  	<div class="form-row">
+								    	<div class="col-12 my-3">
+								      		<input type="text" class="form-control" placeholder="Your Fullname">
+								    	</div>
+
+								    	<div class="col-12 my-3">
+								      		<input type="email" class="form-control" placeholder="Your Email">
+								    	</div>
+
+								    	<div class="col-12 my-3">
+								      		<input type="password" class="form-control" placeholder="Make a Password">
+								    	</div>
+
+								    	<div class="col-12 my-3">
+								      		<input type="text" class="form-control" placeholder="Your Phone Number">
+								    	</div>
+
+								    	<div class="col-3 my-3">
+								    		<button class="btn btn-default">Register</button>
+								    	</div>
+								  	</div>
+								</form>
+						  	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>&copy; 2020 Copyright. All Rights Reserved.</p>
+				</div>
+
+				<div class="col-md-6">
+					<div class="social-links text-right">
+						<ul class="list-inline">
+							<li class="list-inline-item"><a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+							<li class="list-inline-item"><a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+							<li class="list-inline-item"><a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+							<li class="list-inline-item"><a href="http://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
+							<li class="list-inline-item"><a href="http://plus.google.com"><i class="fab fa-google-plus-g"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/plugins/bootstrap-4/js/bootstrap.min.js"></script>
+
+</body>
+</html>
